@@ -1,0 +1,84 @@
+@import '../../vars.css';
+
+.container{
+    margin-top: 76px;
+    color: var(--color-text);
+    justify-content: space-between;
+    margin-left: 5%;
+    
+    
+
+}
+.title{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 18px 24px;
+    max-width: 345px;
+
+}
+
+.primg{
+    margin-bottom: 26px;
+
+}
+.title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.description{
+    margin-top: 6px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.links{
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.link{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: var(--color-primary);
+    padding: 1px 22px;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 37px;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+}
+.box{
+    display: flex;
+object-fit: contain;    
+
+}
+
+@media (max-width: 768px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    /* CSS styles for screens up to 768px wide */
+  }
+  
